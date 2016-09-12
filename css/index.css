@@ -60,7 +60,11 @@ ul.nav li {
 	background-attachment: fixed;
 }
 #about-me {
-	height: 1000px;	
+	height: 1000px;
+	background: url('http://bdwhw.com/images/2/clean-background/clean-background-02.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 #about-me-text {
 	width: 600px;
