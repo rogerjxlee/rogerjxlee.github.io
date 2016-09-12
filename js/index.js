@@ -4,6 +4,8 @@ $(function() {
 	projects();
 	aboutme();
 	$(window).resize(header);
+	$(window).resize(projects);
+	$(window).resize(aboutme);
 	$('a[href*="#"]:not([href="#"])').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			var target = $(this.hash);
