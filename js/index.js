@@ -40,10 +40,14 @@ function aboutme() {
 	$("#about-me").children().each(function(){
 	    totalHeight = totalHeight + $(this).outerHeight(true);
 	});
+	totalHeight += $('.nav').height();
 	console.log(totalHeight);
 	var windowHeight = $(window).height();
 	if (totalHeight < windowHeight) {
 		$('#about-me').height(windowHeight);
+	}
+	else {
+		$('#about-me').height(totalHeight);
 	}
 	$('#about-me').css('padding-top', $('.nav').height());
 }
