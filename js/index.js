@@ -36,9 +36,13 @@ function projects() {
 	$('#projects').css('padding-top', $('.nav').height());
 }
 function aboutme() {
-	var aboutMeHeight = $('#about-me').height(); 
+	var totalHeight = 0;
+	$("#about-me").children().each(function(){
+	    totalHeight = totalHeight + $(this).outerHeight(true);
+	});
+	console.log(totalHeight);
 	var windowHeight = $(window).height();
-	if (aboutMeHeight < windowHeight) {
+	if (totalHeight < windowHeight) {
 		$('#about-me').height(windowHeight);
 	}
 	$('#about-me').css('padding-top', $('.nav').height());
