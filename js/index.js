@@ -37,7 +37,7 @@ function projects() {
 }
 function aboutme() {
 	var totalHeight = 0;
-	$("#about-me").children().each(function(){
+	$("#about-me").children('.flex').children('div').each(function(){
 	    totalHeight = totalHeight + $(this).outerHeight(true);
 	});
 	totalHeight += $('.nav').height();
