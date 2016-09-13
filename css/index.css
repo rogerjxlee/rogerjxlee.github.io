@@ -67,6 +67,7 @@ ul.nav li {
 	background-size: cover;
 }
 #about-me-text {
+	padding: 20px;
 	width: 600px;
 	font-size: 20px;
 	margin: auto;
@@ -75,8 +76,9 @@ ul.nav li {
 .flex {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
-	justify-content: center;
+	height: 100%;
 }
 .flex > div {
 	flex: 1 0 100%;

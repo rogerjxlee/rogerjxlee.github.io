@@ -38,7 +38,7 @@ function projects() {
 function aboutme() {
 	var aboutMeHeight = $('#about-me').height(); 
 	var windowHeight = $(window).height();
-	if (aboutMeHeight < windowHeight) {
+	if (aboutMeHeight < window) {
 		$('#about-me').height(windowHeight);
 	}
 	$('#about-me').css('padding-top', $('.nav').height());
