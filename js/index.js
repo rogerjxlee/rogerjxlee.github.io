@@ -1,4 +1,5 @@
 $(function() {
+	console.log($(window).width());
 	nav();
 	header();
 	projects();
@@ -23,7 +24,9 @@ $(function() {
 	});
 	$('.fuoc').css('visibility', 'visible');
 })
+function siteContainer() {
 
+}
 function nav() {
 	var numItems = $('.nav').children('li').length;
 	$('.nav').children('li').width(100/numItems+'%');
@@ -41,7 +44,6 @@ function aboutme() {
 	    totalHeight = totalHeight + $(this).outerHeight(true);
 	});
 	totalHeight += $('.nav').height();
-	console.log(totalHeight);
 	var windowHeight = $(window).height();
 	if (totalHeight < windowHeight) {
 		$('#about-me').height(windowHeight);
