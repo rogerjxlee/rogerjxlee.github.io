@@ -21,6 +21,7 @@ $(function() {
 			}
 		}
 	});
+	$('.fuoc').css('visibility', 'visible');
 })
 
 function nav() {
@@ -35,6 +36,10 @@ function projects() {
 	$('#projects').css('padding-top', $('.nav').height());
 }
 function aboutme() {
-	$('#about-me').height($(window).height());
+	var aboutMeHeight = $('#about-me').height(); 
+	var windowHeight = $(window).height();
+	if (aboutMeHeight < windowHeight) {
+		$('#about-me').height(windowHeight);
+	}
 	$('#about-me').css('padding-top', $('.nav').height());
 }
