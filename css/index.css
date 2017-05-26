@@ -1,131 +1,131 @@
 body {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 ul.nav.nav-tabs  {
-	position: fixed;
-	top: 0px;
-	font-size: 16px;
-	line-height: 2.0em;
-	width: 100%;
-  	display: flex;
-  	margin: 0;
+  position: fixed;
+  top: 0px;
+  font-size: 16px;
+  line-height: 2.0em;
+  width: 100%;
+    display: flex;
+    margin: 0;
 }
 ul.nav li {
-	padding: 0px 0px;
-	text-align: center;
+  padding: 0px 0px;
+  text-align: center;
 }
 
-#site-container {	
-	font-family: 'Ubuntu', sans-serif;
-	width: 100%;
+#site-container {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
 }
 #nav-bar {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 #header {
-	text-align: center;
-	text-transform: uppercase;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	flex-wrap: wrap;
-	height: 1000px;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
 }
 /*#header div {
-	display: block;
-	min-width: 800px;
+  display: block;
+  min-width: 800px;
 }*/
 #header h1 {
-	font-size: 48px;
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	width: 100%;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  width: 100%;
 
 }
 #header p {
-	font-size: 28px;
-	font-weight: bold;	
-	width: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  width: 100%;
 }
 #projects {
-	height: 1000px;
-	background: url('https://i.reddituploads.com/d6358acddd3943c180f554c43c34eb57?fit=max&h=1536&w=1536&s=88516fe8c238fb3fbc41beae1f604d55');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+  height: 1000px;
+  background: url('https://i.reddituploads.com/d6358acddd3943c180f554c43c34eb57?fit=max&h=1536&w=1536&s=88516fe8c238fb3fbc41beae1f604d55');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #about-me {
-	background: url('../img/clean-background-02.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+  background: url('../img/clean-background-02.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 #about-me-text {
-	width: 300px;
-	font-size: 20px;
-	margin: 20px auto 20px;
-	text-align: center;
-	word-wrap:
+  width: 300px;
+  font-size: 20px;
+  margin: 20px auto 20px;
+  text-align: center;
+  word-wrap:
 }
 .flex {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
 }
 .flex > div {
-	flex: 1 0 100%;
+  flex: 1 0 100%;
 }
 #nav-bar > .nav.nav-tabs > li > a {
-	color: black;
-	border-bottom: 1px solid #ddd;
-	background-color: transparent;
-	margin: 0;
+  color: black;
+  border-bottom: 1px solid #ddd;
+  background-color: transparent;
+  margin: 0;
 }
 #nav-bar > .nav.nav-tabs > li > a:focus,
-#nav-bar > .nav.nav-tabs > li > a:hover {	
-	color: #29DBC3;
-	background-color: transparent;
-	border-bottom-color: transparent;
+#nav-bar > .nav.nav-tabs > li > a:hover {
+  color: #29DBC3;
+  background-color: transparent;
+  border-bottom-color: transparent;
 }
 #nav-bar > .nav.nav-tabs > li.active > a,
 #nav-bar > .nav.nav-tabs > li.active > a:hover,
 #nav-bar > .nav.nav-tabs > li.active > a:active {
-	color: #29DBC3;
-	border-bottom-color: transparent;
+  color: #29DBC3;
+  border-bottom-color: transparent;
 }
 #nav-bar > .nav.nav-tabs > li.active > a:hover,
 #nav-bar > .nav.nav-tabs > li.active > a:active {
-	border-bottom-color: transparent;
+  border-bottom-color: transparent;
 }
 .nav-tabs {
-	border-bottom: 0;
+  border-bottom: 0;
 }
 ul {
-	padding: 0;
-	list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .img-circle {
-	margin: 20px auto 20px auto;
-	width: 300px;
-	height: 300px;
+  margin: 20px auto 20px auto;
+  width: 300px;
+  height: 300px;
     border-radius: 50%;
     overflow: hidden;
 }
 img {
-	height: 100%;
+  height: 100%;
 }
 #header li {
-	padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 #header a {
-	color: #29DBC3;
+  color: #29DBC3;
 }
 #header a:hover {
-	color: orange;
-	text-decoration: none;
+  color: orange;
+  text-decoration: none;
 }
